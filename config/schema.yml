@@ -1,0 +1,5 @@
+propel:
+  user:
+    id:      { type: integer, required: true, primaryKey: true, autoIncrement: true }
+    name:    { type: varchar(100) }
+    surname: { type: varchar(100) }
